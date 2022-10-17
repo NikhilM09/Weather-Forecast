@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/weather.js"></script>
+</head>
+<body>
+        <div class="container-inner">
+                <input type="text" id="userdata" placeholder="Enter city name">
+                <input type="button" value="search" id="button" onclick="getData()">
+                <div class="results">
+                    <h1 id="city" class="p-2"></h1>
+                    <img id="symbol" class="p-2">
+                    <h1 id="temp" class="p-2"></h1>
+                    <h2 id="weather" class="p-2"></h2>
+                    <h3 id="max" class="text-center p-2"></h3>
+                    <h3 id="min" class="text-center p-2"></h3>
+                </div>
+        </div>
+
+   
+</body>
+</html>
